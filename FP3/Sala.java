@@ -22,7 +22,7 @@ public class Sala {
             System.out.println("A sala está cheia!");
         }
     }
-    public int getQuantidadeFilmeExibido(){
+    public int getQuantidadeFilmesExibidos(){
         return contadorFilmeExibidos;
 
     }
