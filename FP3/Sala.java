@@ -21,6 +21,9 @@ public class Sala {
         } else {
             System.out.println("A sala está cheia!");
         }
-    
+    }
+    public int getQuantidadeFilmeExibido(){
+        return contadorFilmeExibidos;
+
     }
 }
