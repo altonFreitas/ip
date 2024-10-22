@@ -13,4 +13,14 @@ public class Sala {
         this.filmeExibidos = new Filme[100];
         this.contadorFilmeExibidos = 0;
     }
+
+    public void exibirFilme(Filme filme) {
+        if (contadorFilmeExibidos < this.filmeExibidos.length) {
+            filmeExibidos[contadorFilmeExibidos] = filme;
+            contadorFilmeExibidos++;
+        } else {
+            System.out.println("A sala está cheia!");
+        }
+    
+    }
 }
